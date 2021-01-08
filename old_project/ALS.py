@@ -1,7 +1,7 @@
 from tqdm import tqdm
 import numpy as np
-from interface import Regressor
-from utils import Config, get_data
+from old_project.interface import Regressor
+from old_project.utils import Config, get_data
 import pandas as pd
 
 

@@ -1,7 +1,7 @@
-from interface import Regressor
-from utils import get_data
+from old_project.interface import Regressor
+from old_project.utils import get_data
 import pandas as pd
-from config import USER_COL_NAME_IN_DATAEST, ITEM_COL_NAME_IN_DATASET, RATING_COL_NAME_IN_DATASET
+from old_project.config import USER_COL_NAME_IN_DATAEST, ITEM_COL_NAME_IN_DATASET, RATING_COL_NAME_IN_DATASET
 
 
 class SimpleMean(Regressor):

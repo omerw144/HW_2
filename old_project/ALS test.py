@@ -1,6 +1,5 @@
 import pandas as pd, numpy as np, matplotlib.pyplot as plt
-from utils import get_data
-from config import TRAIN_PATH, VALIDATION_PATH
+from old_project.config import TRAIN_PATH
 from tqdm import tqdm
 
 

@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
-from interface import Regressor
-from utils import get_data, Config
-from config import BASELINE_PARAMS_FILE_PATH, CORRELATION_PARAMS_FILE_PATH_ZIP
+from old_project.interface import Regressor
+from old_project.utils import get_data, Config
+from old_project.config import BASELINE_PARAMS_FILE_PATH, CORRELATION_PARAMS_FILE_PATH_ZIP
 
 
 class KnnBaseline(Regressor):

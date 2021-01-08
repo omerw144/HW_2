@@ -1,5 +1,4 @@
 import pandas as pd
-from config import TRAIN_PATH, VALIDATION_PATH
 import numpy as np
 
 
@@ -10,9 +9,9 @@ def get_data():
     if in the validation set there is an index that does not appear in the train set then we can put np.nan or
      other indicator that tells us that.
     """
-    train = pd.read_csv("data/Train.csv")
-    validation = pd.read_csv("data/Validation.csv")
-    test = pd.read_csv("data/Test.csv")
+    train = pd.read_csv("../data/Train.csv")
+    validation = pd.read_csv("../data/Validation.csv")
+    test = pd.read_csv("../data/Test.csv")
     # print(len(train))
     # print(len(validation))
     # train = train[:(round(len(train) / 100))]

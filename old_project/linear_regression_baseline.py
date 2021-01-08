@@ -1,13 +1,12 @@
 from typing import Dict
 
 import numpy as np
-import pandas as pd
 
-from interface import Regressor
-from utils import Config, get_data
+from old_project.interface import Regressor
+from old_project.utils import Config, get_data
 import pickle
 
-from config import BASELINE_PARAMS_FILE_PATH
+from old_project.config import BASELINE_PARAMS_FILE_PATH
 
 
 class Baseline(Regressor):

@@ -1,9 +1,9 @@
 import numpy as np
 from scipy.spatial.distance import pdist, squareform
-from utils import get_data, Config
-from interface import Regressor
+from old_project.utils import get_data, Config
+from old_project.interface import Regressor
 from os import path
-from config import CORRELATION_PARAMS_FILE_PATH_ZIP
+from old_project.config import CORRELATION_PARAMS_FILE_PATH_ZIP
 
 
 class KnnItemSimilarity(Regressor):
