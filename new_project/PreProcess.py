@@ -4,7 +4,7 @@ from new_project.NegativeSampling import *
 
 
 def pre_process(hyper_set, epoch_num=50, read_directory=True, write_num=1, sample_method='P', if_test=False):
-    train = read_data_to_df('Data\\Train.csv')
+    train = read_data_to_df('Train.csv')
     items_index = create_index(train, col_name='ItemID')
     users_index = create_index(train, col_name='UserID')
 
@@ -52,7 +52,7 @@ def PostProcess_TestResult(model_obj, users_index, items_index, details='popular
     :param details: random    OR    popularity
     :return: saves csv with our result
     """
-    file_directory = 'Data\\' + details.title() + 'Test.csv'
+    file_directory = 'Test.csv'
     test_data_df = pd.read_csv(file_directory)
     bit_classification_col = []
     for index, row in test_data_df.iterrows():
