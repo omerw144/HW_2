@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from utilis import *
+from new_project.utilis import *
 from tqdm import tqdm
 
 

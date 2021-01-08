@@ -1,9 +1,9 @@
 import numpy as np
 import pandas as pd
-from utilis import *
-from BPR import *
-from NegativeSampling import *
-from PreProcess import *
+from new_project.utilis import *
+from new_project.BPR import *
+from new_project.NegativeSampling import *
+from new_project.PreProcess import *
 import pickle
 
 
